@@ -16,5 +16,13 @@ class Rightangletriangle
         }
         System.out.println(" ");
     }
+    for(int k=n; k>=1; k--)
+    {
+        for(int l=n; l<=k; l--)
+        {
+            System.out.print("* ");
+        }
+        System.out.println();
+    }
     }
 }
